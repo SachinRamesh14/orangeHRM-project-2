@@ -20,24 +20,24 @@ class Test_Salary:
         self.driver.implicitly_wait(10)
         self.driver.get(self.baseurl)
         self.loginpageobj = Login(self.driver)
-        #
-        # self.loginpageobj.setusername(self.username)
-        # self.loginpageobj.setpassword("invalid password")
-        # self.loginpageobj.clickloginbutton()
-        # self.logger.info("******** Enter wrong password to login ******** ")
-        # time.sleep(3)
-        #
-        # self.loginpageobj.setusername("sachin")
-        # self.loginpageobj.setpassword(self.password)
-        # self.loginpageobj.clickloginbutton()
-        # self.logger.info("******** Enter Wrong Username Login ********")
-        # time.sleep(3)
-        #
-        # self.loginpageobj.setusername("826hse")
-        # self.loginpageobj.setpassword("nu230oej")
-        # self.loginpageobj.clickloginbutton()
-        # self.logger.info("******** Enter Wrong Username and password login ********")
-        # time.sleep(3)
+        
+        self.loginpageobj.setusername(self.username)
+        self.loginpageobj.setpassword("invalid password")
+        self.loginpageobj.clickloginbutton()
+        self.logger.info("******** Enter wrong password to login ******** ")
+        time.sleep(3)
+        
+        self.loginpageobj.setusername("sachin")
+        self.loginpageobj.setpassword(self.password)
+        self.loginpageobj.clickloginbutton()
+        self.logger.info("******** Enter Wrong Username Login ********")
+        time.sleep(3)
+        
+        self.loginpageobj.setusername("826hse")
+        self.loginpageobj.setpassword("nu230oej")
+        self.loginpageobj.clickloginbutton()
+        self.logger.info("******** Enter Wrong Username and password login ********")
+        time.sleep(3)
 
         self.loginpageobj.setusername(self.username)
         self.loginpageobj.setpassword(self.password)

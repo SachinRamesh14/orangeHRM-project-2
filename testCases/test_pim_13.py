@@ -83,4 +83,5 @@ class Test_Tax_Exemptions:
         self.logger.info("******** Validated filled details are presented *********")
 
 
-        self.logger.info("******** test_pim_13 will be completed successfully ********")
+        self.logger.info("******** Jenkins project build completed successfully ********")
+

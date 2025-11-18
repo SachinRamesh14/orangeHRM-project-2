@@ -77,4 +77,5 @@ class Test_Menu:
             self.adminpageobj.clear()
         self.logger.info("********* search bar upper case search all menu tabs displayed successfully  ********")
         self.driver.close()
-        self.logger.info("******** test_pim_01 will be completed successfully ********")
+        self.logger.info("******** test_project job build successfully ********")
+
